@@ -14,7 +14,7 @@ A-LYST+ is the public-facing research website for Dr. Adriana Montaño's lab, co
 
 ## Stack
 
-Static site — HTML, CSS, JavaScript. Hosted via GitHub Pages.
+Static site - HTML, CSS, JavaScript. Hosted via GitHub Pages.
 
 ## Structure
 
