@@ -1,41 +1,29 @@
-# A-LYST
+# A-LYST+
 
-A-LYST is a research lab website built for a principal investigator working on MPS, mucopolysaccharidosis, and related biochemical research.
+**Advancing Lysosomal Science & Therapeutics**
 
-The site is designed to give the lab a clean public-facing presence for research focus, publications, team information, student opportunities, and general outreach. It is part of my academic web development work for research groups and lab websites.
+Official website for the Montaño Laboratory at Saint Louis University School of Medicine, Department of Pediatrics and Biochemistry & Molecular Biology.
 
-## Project purpose
+🔗 **Live site:** [montanolaboratory.github.io/A-LYST](https://montanolaboratory.github.io/A-LYST/)
 
-Many research labs need simple, readable, and maintainable websites that communicate their work clearly without requiring a complex web stack. A-LYST was built as a lightweight static website for an MPS-focused biomedical lab.
+---
 
-The goal was to create a site that could be easily updated, hosted through GitHub Pages, and used as a starting point for the lab’s public research presence.
+## About
 
-## Features
+A-LYST+ is the public-facing research website for Dr. Adriana Montaño's lab, covering research focus, team members, publications, and opportunities to join the group. Research areas include enzyme replacement therapy, gene therapy, natural history studies, biomarker discovery, and newborn screening for mucopolysaccharidoses (MPS) and lysosomal storage disorders.
 
-- Static lab website structure
-- Research overview sections
-- Team or personnel sections
-- Publications or research output areas
-- Student and collaborator information
-- Responsive layout for desktop and mobile viewing
-- Lightweight HTML, CSS, and JavaScript implementation
-- GitHub Pages compatible deployment
+## Stack
 
-## Tech stack
+Static site — HTML, CSS, JavaScript. Hosted via GitHub Pages.
 
-- HTML
-- CSS
-- JavaScript
-- GitHub Pages
+## Structure
 
-## My role
+All content lives in `index.html`. Team member photos and gallery images are stored as flat files in the repo root.
 
-I built the website structure, layout, styling, and front-end organization for the lab. My work focused on creating a clean, maintainable research website that could present the PI’s MPS-focused work clearly to students, collaborators, and external visitors.
+## Updating the site
 
-## Status
+- **Team members:** Edit the team section in `index.html` and add the corresponding photo (e.g. `name.png`) to the repo root.
+- **Publications:** Add new entries to the publications section in `index.html`.
+- **Gallery:** Add the image file and a new `gallery-item` block to the gallery section.
 
-Research lab website project. Content and structure may continue to evolve as the lab updates its public-facing materials.
-
-## Notes
-
-This repository is intended to document the web development side of the project. Scientific content belongs to the PI and lab team.
+Changes go live automatically on push to `main`.
